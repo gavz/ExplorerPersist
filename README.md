@@ -1,5 +1,6 @@
 # ExplorerPersist
-Explorer Persistence technique : Hijacking cscapi.dll order loading path and writing our malicious dll into C:\Windows\cscapi.dll , when it's get loaded into the explorer process , our malicoius code get executed
+Explorer Persistence technique : Hijacking cscapi.dll order loading path and writing our malicious dll into C:\Windows\cscapi.dll , when it's get loaded into the explorer process , our malicoius code get executed.
+The persistence is triggered each time the explorer process is runned.  
 
 
 ### POC 
